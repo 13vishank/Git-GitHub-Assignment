@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello Guys"
+    return "Hello Guyzz"
 
 @app.route('/api')
 def api():
