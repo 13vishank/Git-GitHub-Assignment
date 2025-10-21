@@ -4,7 +4,9 @@
 <body>
     <form action="/submittodoitem" method="post">
     <input type="hidden" id="item_id" name="item_id"> 
-  Item Name: <input type="text" name="itemName"><br>
+    <input type="hidden" id="item_uuid" name="item_uuid">
+    
+    Item Name: <input type="text" name="itemName"><br>
   Item Description: <input type="text" name="itemDescription"><br>
   <input type="submit" value="Submit">
 </form>
